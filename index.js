@@ -29,7 +29,8 @@ app.use(express.json({
     extended: false
 }))
 
-const baseUrl = 'http:localhost:5000'
+//const baseUrl = 'http:localhost:5000'
+const baseUrl = 'https://hotlink.herokuapp.com'
 app.get('/',(req,res)=>{
     console.log('requested')
     res.send("Hello there!")
